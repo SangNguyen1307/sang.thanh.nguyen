@@ -1,0 +1,54 @@
+/* Chỉ là style cơ bản, bạn có thể tự làm đẹp hơn! */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+h1 {
+    color: #333;
+}
+
+.search-box {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#city-input {
+    flex: 1; /* Cho ô input chiếm hết phần còn lại */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px; /* Bo góc trái */
+}
+
+#search-btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0; /* Bo góc phải */
+}
+
+#search-btn:hover {
+    background-color: #0056b3;
+}
+
+#weather-result {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #555;
+}
